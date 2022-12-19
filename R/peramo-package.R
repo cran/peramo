@@ -1,7 +1,8 @@
 #' peramo: Permutation Tests for Randomization Model
 #'
-#' Perform permutation-based hypothesis testing for randomized experiments, as
-#' described in Ernst (2004) \doi{10.1214/088342304000000396}.
+#' Perform permutation-based hypothesis testing for randomized experiments as
+#' described in Ernst (2004) \doi{10.1214/088342304000000396} and Manly (2007)
+#' <isbn:978-1-58488-541-2>.
 #'
 #' @author Duy Nghia Pham & Inna M. Sokolova
 #'
@@ -23,5 +24,6 @@
 #'
 #' @importFrom magrittr %>%
 #' @importFrom dplyr case_when
-#' @importFrom stats na.omit quantile
+#' @importFrom stats na.omit quantile aov as.formula
+#' @importFrom utils head
 NULL

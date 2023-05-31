@@ -2,8 +2,8 @@
 #'
 #' @encoding UTF-8
 #'
-#' @name copper_temp
-"Cu"
+#' @name ctm
+"ctm_Cu"
 
-#' @rdname copper_temp
-"worm"
+#' @rdname ctm
+"ctm_worm"
